@@ -58,7 +58,7 @@ const Navbar = () => {
         <Link href='/'>
           <a>
             <Image
-              src='/assets/navLogo.png'
+              src={'/assets/navLogo.png'}
               alt='/'
               width='125'
               height='50'
@@ -118,7 +118,7 @@ const Navbar = () => {
               <Link href='/'>
                 <a>
                   <Image
-                    src='/assets/navLogo.png'
+                    src={'/assets/navLogo.png'}
                     width='87'
                     height='35'
                     alt='/'
@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='#/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='#'
                   target='_blank'
                   rel='noreferrer'
                 >
