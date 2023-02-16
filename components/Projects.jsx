@@ -5,6 +5,8 @@ import ghanabraidImg from '../public/assets/projects/ghanabraid.jpg';
 import bijouxhairImg from '../public/assets/projects/bijouxhair.jpg'
 import xpressionImg from '../public/assets/projects/4xxpression.jpg'
 import behairstyleImg from '../public/assets/projects/behairstyle.jpg'
+import PhotographyImg from '../public/assets/projects/photography.jpg'
+import dress415Img from '../public/assets/projects/dress415.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -30,6 +32,20 @@ const Projects = () => {
 
           />
           <ProjectItem
+            title='Ecommerce App'
+            backgroundImg={dress415Img}
+            projectUrl='/dress415'
+            tech='Next JS'
+
+          />
+           <ProjectItem
+            title='Photography'
+            backgroundImg={PhotographyImg}
+            projectUrl='https://www.flickr.com/photos/76876868@N05/with/52692877256/'
+            tech='Photography'
+
+          />
+          <ProjectItem
             title='Photo Contest App'
             backgroundImg={xpressionImg}
             projectUrl='/4xxpression'
@@ -43,6 +59,9 @@ const Projects = () => {
             tech='Flutter'
 
           />
+         
+          
+
         </div>
       </div>
     </div>
