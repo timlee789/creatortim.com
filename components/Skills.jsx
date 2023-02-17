@@ -16,6 +16,7 @@ import Flutter from '../public/assets/skills/flutter.png'
 import Photography from '../public/assets/skills/photography.png'
 import Wordpress from '../public/assets/skills/wordpress.png'
 import Marketing from '../public/assets/skills/marketing.png'
+import Videography from '../public/assets/skills/videography.png'
 import AWS from '../public/assets/skills/aws.png';
 
 const Skills = () => {
@@ -27,6 +28,78 @@ const Skills = () => {
         </p>
         <h2 className='py-4'>What I Can Do</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+
+
+        <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Marketing} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Online Marketing</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Photography} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Photography</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Videography} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Videography</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Photoshop} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Photoshop</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Premiere} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Premiere Pro</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Aftereffects} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>After Effects</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Illustrator} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Illustrator</h3>
+              </div>
+            </div>
+          </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -87,7 +160,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Wordpress} width='64px' height='64px' alt='/' />
@@ -96,7 +169,7 @@ const Skills = () => {
                 <h3>Wordpress</h3>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -137,66 +210,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Marketing} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Online Marketing</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Photography} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Photo shoot</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Photoshop} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Photoshop</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Premiere} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Premiere Pro</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Aftereffects} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>After Effects</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Illustrator} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Illustrator</h3>
-              </div>
-            </div>
-          </div>
+          
          
          
 
