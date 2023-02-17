@@ -16,7 +16,7 @@ import Flutter from '../public/assets/skills/flutter.png'
 import Photography from '../public/assets/skills/photography.png'
 import Wordpress from '../public/assets/skills/wordpress.png'
 import Marketing from '../public/assets/skills/marketing.png'
-import Videography from '../public/assets/skills/videography.png'
+import Videography from '../public/assets/skills/Videography.png'
 import AWS from '../public/assets/skills/aws.png';
 
 const Skills = () => {
